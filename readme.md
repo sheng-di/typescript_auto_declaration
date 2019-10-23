@@ -7,7 +7,7 @@
 - 网页开发中使用的
 ## 使用
 1、将函数绑定给一个全局变量，如小程序中就绑定给`wx`，网页中就绑定给`document`
-```jabascript
+```javascript
 wx.getType = (data) => {
   if (typeof data === 'object') {
     if (typeof data.length !== 'undefined') {
